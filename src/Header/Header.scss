@@ -1,0 +1,17 @@
+
+.header {
+    color: #efefef;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ffffff10;
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        font-size: 1.5rem;
+    }
+
+    &__add {
+        font-size: 2rem;
+    }
+}
