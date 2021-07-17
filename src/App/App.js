@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { hot } from 'react-hot-loader/root';
 
 import './App.scss'
 import Header from '../Header/Header'

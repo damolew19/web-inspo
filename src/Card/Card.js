@@ -1,5 +1,5 @@
 import React from 'react';
-import { hot } from 'react-hot-loader/root';
+
 
 import './Card.scss';
 import image from './dtn.png'

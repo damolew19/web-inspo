@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import { hot } from 'react-hot-loader/root';
 
 import './Modal.scss'
 
