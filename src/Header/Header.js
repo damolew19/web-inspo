@@ -9,7 +9,7 @@ const Header = (props) => {
     return (
         <nav className="header">
             <p className="header__title">Web Inspo</p>
-            <p className="header__add" onClick={props.addCategory}>+</p>
+            <button className="header__button header__add" type="button" onKeyPress={props.addCategory} onClick={props.addCategory}>+</button>
         </nav>
 
     )

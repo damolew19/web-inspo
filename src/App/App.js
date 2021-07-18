@@ -1,18 +1,19 @@
 import React, {useState} from 'react';
 
+
 import './App.scss'
 import Header from '../Header/Header'
-import Card from '../Card/Card'
 import Category from '../Category/Category';
 import Modal from  '../Modal/Modal';
 
 
 const App = () => {
 
+
 	const [section, setSection] = useState([])
 
 	const addCategory = () => {
-		setSection(section =>  [...section, <Category />])
+		setSection((section, i) =>  [...section, <Category key={i}/>])
 		document.querySelector('#category-modal').style.display = "flex";
 	}
 

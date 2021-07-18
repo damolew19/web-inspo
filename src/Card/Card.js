@@ -4,9 +4,9 @@ import React from 'react';
 import './Card.scss';
 import image from './dtn.png'
 
-const Card = () => {
+const Card = (props) => {
     return(
-        <a className="card" href="">
+        <a className="card" href={props.url}>
             <div className="card__content">
                 <figure className="card__figure">
                     <img className="card__img" src={image} alt="" />
